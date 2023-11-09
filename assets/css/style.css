@@ -529,6 +529,10 @@ table tr td:nth-child(1) {
         background-color: white;
         border-radius: 50%;
     }
+
+    .trnfrm_box {
+        transform: translateY(-51px);
+    }
 }
 
 @media (min-width: 992px) {
@@ -537,7 +541,7 @@ table tr td:nth-child(1) {
     }
 
     .trnfrm_box {
-        transform: translateY(-1px);
+        transform: translateY(-40px);
     }
 
     .gap-32 {
