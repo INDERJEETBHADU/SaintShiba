@@ -1,0 +1,643 @@
+@import url(../css/root.css);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.ff_poopins {
+    font-family: "Poppins", sans-serif;
+}
+
+.ftw_sm {
+    font-weight: 400;
+}
+
+.ftw_md {
+    font-weight: 600;
+}
+
+.ftw_lg {
+    font-weight: 700;
+}
+
+.line_height_128 {
+    line-height: 128%;
+}
+
+.line_height_180 {
+    line-height: 180%;
+}
+
+.line_height_150 {
+    line-height: 150%;
+}
+
+.opacty_7 {
+    opacity: 0.7;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+/* --------------------------------padding___margin______----------------------------------------------- */
+.pt-24 {
+    padding-top: 24px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.pt_90 {
+    padding-top: 90px;
+}
+
+.mt_50 {
+    margin-top: 50px;
+}
+
+.pt_50 {
+    padding-top: 50px;
+}
+
+.pt-62 {
+    padding-top: 62px;
+}
+
+.pb_50 {
+    padding-bottom: 50px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.mt_2 {
+    margin-top: -2px;
+}
+
+.pb_90 {
+    padding-bottom: 90px;
+}
+
+.gap-90 {
+    gap: 90px;
+}
+
+.gap_25 {
+    gap: 25px;
+}
+
+/* ---------------------------------------nav_box_css-------------------------------- */
+.ol,
+ul {
+    padding-left: 0 !important;
+}
+
+.bg_img {
+    background-image: url(../images/background_Full-moon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav_box {
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(8px);
+}
+
+.saint {
+    cursor: pointer;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.nav_btn {
+    color: var(--white, #fff);
+    padding: 7px 23px;
+    border-radius: 23.5px;
+    background: var(--Gradient-H,
+            linear-gradient(90deg, #ffa800 0%, #f06500 100%));
+    border: 2px solid transparent;
+    transition: 400ms linear;
+}
+
+.nav_btn:hover {
+    color: var(--color-orange);
+    border: 2px solid var(--color-orange);
+    background: unset !important;
+}
+
+/*-------------------------------------- hero_section_css_starts_here------------------------- */
+.hero_sec_main_heading {
+    line-height: 99.5%;
+}
+
+.hero_sec_btn {
+    padding: 12px 32px;
+    border-radius: 33px;
+    background: var(--Gradient-H,
+            linear-gradient(90deg, #ffa800 0%, #f06500 100%));
+    border: none;
+    transition: all 350ms linear;
+}
+
+.hero_sec_btn:hover {
+    box-shadow: #f06500 0 0 15px;
+}
+
+.max_width {
+    max-width: 565px;
+}
+
+.hero_sec_box {
+    width: 100%;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: linear-gradient(95deg,
+            rgba(255, 255, 255, 0.05) 0.97%,
+            rgba(255, 255, 255, 0) 103.14%);
+    backdrop-filter: blur(16px);
+}
+
+.trnfrm_box {
+    transform: translateY(14px);
+}
+
+/*-------------------------- learn_more_section_css_starts_here--------------------------- */
+.learn_more_btn {
+    color: var(--white, #fff);
+    border-radius: 23.5px;
+    background: var(--Gradient-H,
+            linear-gradient(90deg, #ffa800 0%, #f06500 100%));
+    padding: 7px 23px;
+    border: 2px solid transparent;
+    transition: 400ms linear;
+}
+
+.learn_more_btn {
+    color: var(--color-orange);
+    border: 2px solid var(--color-orange);
+    background: unset !important;
+}
+
+.position-absolute_1 {
+    position: absolute;
+    top: -11%;
+    left: 38%;
+}
+
+.position-absolute_2 {
+    position: absolute;
+    top: 36%;
+    right: -2%;
+}
+
+.position-absolute_3 {
+    position: absolute;
+    top: -20%;
+    right: 0%;
+}
+
+.position-absolute_4 {
+    position: absolute;
+    top: 13%;
+    left: 0%;
+}
+
+/* ----------------------------how_to_buy_css_here-------------------- */
+.buy_sec_box {
+    width: 100%;
+    max-width: 660px;
+    height: 92px;
+    border-radius: 46px;
+    background: var(--bfr-hover-box-black);
+}
+
+.buy_sec_box_circle {
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.buy_sec_box:hover {
+    background-color: var(--box-color-black);
+}
+
+.buy_sec_box:hover .buy_sec_box_circle {
+    background: var(--Gradient-H,
+            linear-gradient(90deg, #ffa800 0%, #f06500 100%));
+}
+
+.buy_sec_box:hover .buy_sec_box_circle h6 {
+    color: white;
+}
+
+.width_155 {
+    width: 155%;
+}
+
+.min_width_800 {
+    min-width: 800px;
+}
+
+/*------------------------------------ tokenomies_css_starts_here---------------------------- */
+.money_perct_box {
+    max-width: 424px;
+    width: 100%;
+    height: 154px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background: linear-gradient(95deg,
+            rgba(255, 255, 255, 0.1) 0.97%,
+            rgba(255, 255, 255, 0) 103.14%);
+    backdrop-filter: blur(16px);
+    padding: 16px 0px 22px 20px;
+}
+
+.money_perct_box h5:hover {
+    color: var(--color-orange);
+}
+
+.table_main_box {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #fff;
+    border-bottom: none;
+    background: linear-gradient(95deg,
+            rgba(255, 255, 255, 0.05) 0.97%,
+            rgba(255, 255, 255, 0) 103.14%);
+    backdrop-filter: blur(16px);
+}
+
+tr:hover {
+    background: #000;
+    border-left: none;
+    border-right: none;
+}
+
+.color_box {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.max_wid_circle {
+    max-width: 361px;
+}
+
+.max_width_dog3 {
+    max-width: 315px;
+}
+
+.min_width {
+    min-width: 800px;
+}
+
+table {
+    width: 100%;
+    color: white;
+}
+
+table tr {
+    height: 68px;
+}
+
+table tr td {
+    opacity: 0.7;
+}
+
+.table_border {
+    border-top: none;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    background: linear-gradient(95deg,
+            rgba(255, 255, 255, 0.05) 0.97%,
+            rgba(255, 255, 255, 0) 103.14%);
+}
+
+.border_last_data {
+    border: 1px solid white;
+    border-top: none !important;
+    border-collapse: unset;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 100px;
+}
+
+table tr td:nth-child(1) {
+    opacity: 1;
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.roadmap-text-align {
+    text-align: end;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    background-color: white;
+    top: 4%;
+    bottom: 20%;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline_container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.timeline_container::after {
+    content: "";
+    position: absolute;
+    width: 36.028px;
+    height: 36.027px;
+    right: -18px;
+    background: var(--Gradient-V,
+            linear-gradient(180deg, #ffa800 0%, #f06500 100%));
+    top: 15px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -18px;
+}
+
+.content {
+    padding: 20px 15px;
+    background-color: black;
+    position: relative;
+}
+
+.container-roadmap {
+    max-width: 1350px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bulb_glow {
+    border-radius: 292px;
+    background: var(--Yellow, #ffa800);
+    filter: blur(200px);
+    width: 292px;
+    height: 292px;
+}
+
+.position-absolute_bulb1 {
+    position: absolute;
+    right: -4%;
+    top: 18%;
+}
+
+.dooted_position_roadmap {
+    position: absolute;
+    right: 0%;
+    top: -10%;
+}
+
+.position_roadmap_left {
+    position: absolute;
+    left: 0%;
+    top: 30%;
+}
+
+/*------------------------- accordian-----csss------------------------------ */
+.accordion-button {
+    background: linear-gradient(95deg,
+            rgba(255, 255, 255, 0.05) 0.97%,
+            rgba(255, 255, 255, 0) 103.14%) !important;
+    font-size: var(--fs-lg) !important;
+    color: white !important;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.accordion-item {
+    background: linear-gradient(95deg,
+            rgba(255, 255, 255, 0.05) 0.97%,
+            rgba(255, 255, 255, 0) 103.14%) !important;
+}
+
+.accordion-body {
+    font-family: "Poppins", sans-serif !important;
+    font-size: var(--fs-md) !important;
+    font-weight: 400 !important;
+    line-height: 180% !important;
+    opacity: 0.7 !important;
+    color: white !important;
+    background: linear-gradient(95deg,
+            rgba(255, 255, 255, 0.05) 0.97%,
+            rgba(255, 255, 255, 0) 103.14%) !important;
+}
+
+.accordion {
+    width: 100% !important;
+}
+
+.accordion {
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-border-width: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.accordion-button::after {
+    content: "";
+    background-image: url(../images/accodin_opener__btn.png) !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.position_accordian {
+    position: absolute;
+    right: -5%;
+    bottom: -5%;
+}
+
+@media screen and (max-width: 860px) {
+    .timeline::after {
+        left: 31px;
+    }
+
+    .roadmap-text-align {
+        text-align: start;
+    }
+
+    .timeline_container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline_container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+}
+
+@media (min-width: 576px) {
+    .buy_sec_box_circle {
+        width: 71px;
+        height: 71px;
+        background-color: white;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .pt_lg_130 {
+        padding-top: 130px;
+    }
+
+    .trnfrm_box {
+        transform: translateY(-1px);
+    }
+
+    .gap-32 {
+        gap: 25px;
+    }
+
+    .pt_lg_88 {
+        padding-top: 88px;
+    }
+
+    .pb_lg_87 {
+        padding-bottom: 87px;
+    }
+
+    .width_155 {
+        width: unset;
+    }
+
+    .pb_lg_350 {
+        padding-bottom: 350px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pt_xl_227 {
+        padding-top: 227px;
+    }
+
+    .trnfrm_box {
+        transform: translateY(-117px);
+    }
+
+    .gap-32 {
+        gap: 32px;
+    }
+}
+
+@media (max-width: 992px) {
+    .mobile_view {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: -100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 400ms linear;
+        z-index: 3;
+        background-image: url(../images/background_Full-moon.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .overflow_hidden {
+        overflow: hidden;
+    }
+
+    .menu span:nth-child(1) {
+        height: 2px;
+        width: 50px;
+        background-color: var(--color-orange);
+        display: block;
+    }
+
+    .menu span:nth-child(2) {
+        height: 2px;
+        width: 50px;
+        background-color: var(--color-orange);
+        display: block;
+    }
+
+    .menu span:nth-child(3) {
+        height: 2px;
+        width: 50px;
+        background-color: var(--color-orange);
+        display: block;
+    }
+
+    .menu span {
+        transition: ease-out;
+    }
+
+    .cross span:nth-child(1) {
+        transform: rotate(42deg) translateY(13px);
+        transition: 300ms linear;
+    }
+
+    .cross span:nth-child(2) {
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: 300ms linear;
+    }
+
+    .cross span:nth-child(3) {
+        transform: rotate(-43deg) translateY(-13px);
+        transition: 300ms linear;
+    }
+
+    .overflow_x_scroll {
+        overflow-x: scroll;
+    }
+}
